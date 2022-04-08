@@ -1,0 +1,125 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap");
+body {
+  margin: 0;
+  font-family: "Roboto Mono", monospace;
+  background: #f8f8f8;
+  color: #000;
+}
+.header .emoji {
+  user-select: none;
+  -ms-user-select: none;
+  -moz-user-select: none;
+  -webkit-user-select: none;
+  -webkit-user-drag: none;
+  font-size: 10rem;
+  text-align: center;
+}
+.header .content {
+  width: 50em;
+  margin: auto;
+}
+.bar {
+  background: #ececec;
+  padding: 10px;
+  position: sticky;
+  top: 0;
+}
+.bar .wealth {
+  text-align: center;
+  font-size: 150%;
+}
+.items {
+  width: 90%;
+  margin: auto;
+  margin-top: 1%;
+  text-align: center;
+}
+.items .item {
+  background: #ececec;
+  width: 300px;
+  text-align: center;
+  padding: 0px 0px 10px 0px;
+  border-radius: 10px;
+  font-size: 20px;
+  display: inline-block;
+  margin: 0px 15px 10px 0px;
+}
+.items .item .image {
+  user-select: none;
+  -ms-user-select: none;
+  -moz-user-select: none;
+  -webkit-user-select: none;
+  -webkit-user-drag: none;
+  width: 300px;
+  height: 300px;
+  border-radius: 10px 10px 0px 0px;
+  object-fit: cover;
+  background: #fff;
+}
+.items .item .count-container {
+  padding-top: 5px;
+}
+.items .item .buy-button,
+.items .item .sell-button {
+  font-family: "Roboto Mono", monospace;
+  border: none;
+  font-size: 100%;
+  cursor: pointer;
+  padding: 3px;
+}
+.items .item .buy-button:focus,
+.items .item .sell-button:focus {
+  outline: none;
+}
+.items .item .buy-button[disabled],
+.items .item .sell-button[disabled] {
+  cursor: default;
+}
+.items .item .buy-button {
+  background: #9f9;
+}
+.items .item .sell-button {
+  background: #f99;
+}
+.items .item .item-count {
+  display: inline-block;
+  width: 50px;
+  font-size: 90%;
+}
+.items .item .price {
+  font-size: 80%;
+  width: fit-content;
+  margin: auto;
+}
+.receipt {
+  width: 500px;
+  margin: auto;
+  background: #fff;
+  font-family: monospace;
+  padding: 10px;
+  text-align: center;
+}
+.receipt .receipt-name {
+  font-size: 200%;
+}
+@media (max-width: 750px) {
+  .header .emoji {
+    font-size: 7.5rem;
+  }
+  .header .content {
+    width: 30em;
+  }
+}
+@media (max-width: 500px) {
+  .header .emoji {
+    font-size: 7.5rem;
+  }
+  .header .content {
+    width: 20em;
+  }
+}
+@media (max-width: 400px) {
+  .header .content {
+    width: 95%;
+  }
+}

@@ -1,0 +1,218 @@
+[
+    {
+        "name": "iPhone 13",
+        "img": "/assets/iphone-13.png",
+        "price": 829,
+        "count": null
+    },
+    {
+        "name": "1 Acre in NYC",
+        "img": "/assets/new-york-city.jpg",
+        "price": 90000000,
+        "count": null
+    },
+    {
+        "name": "Mac Studio",
+        "img": "/assets/mac-studio.jfif",
+        "price": 1999,
+        "count": null
+    },
+    {
+        "name": "LA Mansion",
+        "img": "/assets/mansion.jpg",
+        "price": 12000000,
+        "count": null
+    },
+    {
+        "name": "iPad Pro",
+        "img": "/assets/ipad.jfif",
+        "price": 799,
+        "count": null
+    },
+    {
+        "name": "Produce A Movie",
+        "img": "/assets/movie.jpg",
+        "price": 100000000,
+        "count": null
+    },
+    {
+        "name": "McChicken",
+        "img": "/assets/mcchicken.jfif",
+        "price": 1,
+        "count": null
+    },
+    {
+        "name": "McDonald's Franchise",
+        "img": "/assets/mcdonalds.jpg",
+        "price": 2500000,
+        "count": null
+    },
+    {
+        "name": "12 Pack of Coca-Cola",
+        "img": "/assets/coca-cola.jfif",
+        "price": 6,
+        "count": null
+    },
+    {
+        "name": "Shoes",
+        "img": "/assets/shoes.jpg",
+        "price": 75,
+        "count": null
+    },
+    {
+        "name": "Nintendo Switch",
+        "img": "/assets/nintendo-switch.jpeg",
+        "price": 299,
+        "count": null
+    },
+    {
+        "name": "Tesla Model X",
+        "img": "/assets/tesla-model-x.jfif",
+        "price": 131440,
+        "count": null
+    },
+    {
+        "name": "Average House (USA)",
+        "img": "/assets/house.jpg",
+        "price": 374900,
+        "count": null
+    },
+    {
+        "name": "M1 Abrams",
+        "img": "/assets/tank.jpg",
+        "price": 6210000,
+        "count": null
+    },
+    {
+        "name": "Mona Lisa",
+        "img": "/assets/mona-lisa.jpg",
+        "price": 860000000,
+        "count": 1
+    },
+    {
+        "name": "Build a House",
+        "img": "/assets/building-a-house.jpg",
+        "price": 284000,
+        "count": null
+    },
+    {
+        "name": "The Merge (NFT)",
+        "img": "/assets/the-merge.jpeg",
+        "price": 91800000,
+        "count": 1
+    },
+    {
+        "name": "PS5",
+        "img": "/assets/ps5.jpg",
+        "price": 499,
+        "count": null
+    },
+    {
+        "name": "Xbox Series X",
+        "img": "/assets/xbox-series-x.jpg",
+        "price": 549,
+        "count": null
+    },
+    {
+        "name": "ISS",
+        "img": "/assets/iss.jpg",
+        "price": 150000000000,
+        "count": 1
+    },
+    {
+        "name": "Open a Grocery Store",
+        "img": "/assets/grocery-store.jpg",
+        "price": 6850000,
+        "count": null
+    },
+    {
+        "name": "Mega Yacht",
+        "img": "/assets/mega-yacht.jfif",
+        "price": 60000000,
+        "count": null
+    },
+    {
+        "name": "NBA Team",
+        "img": "/assets/nba.png",
+        "price": 2600000000,
+        "count": null
+    },
+    {
+        "name": "NFL Team",
+        "img": "/assets/nfl.jpg",
+        "price": 3480000000,
+        "count": null
+    },
+    {
+        "name": "Boeing 747-8",
+        "img": "/assets/boeing-747.jfif",
+        "price": 368800000,
+        "count": null
+    },
+    {
+        "name": "Skyscraper in NYC",
+        "img": "/assets/nyc-2.jpg",
+        "price": 1137500000,
+        "count": null
+    },
+    {
+        "name": "The Starry Night",
+        "img": "/assets/the-starry-night.jpg",
+        "price": 100000000,
+        "count": 1
+    },
+    {
+        "name": "Lamborghini Aventador",
+        "img": "/assets/lamborghini-aventador.jpg",
+        "price": 467000,
+        "count": null
+    },
+    {
+        "name": "Ferrari 812 Superfast",
+        "img": "/assets/ferrari.jpg",
+        "price": 330000,
+        "count": null
+    },
+    {
+        "name": "Flip-Flops",
+        "img": "/assets/flip-flops.jpg",
+        "price": 9,
+        "count": null
+    },
+    {
+        "name": "Apple TV",
+        "img": "/assets/apple-tv.jfif",
+        "price": 200,
+        "count": null
+    },
+    {
+        "name": "College Education (USA)",
+        "img": "/assets/college.jpg",
+        "price": 21370,
+        "count": null
+    },
+    {
+        "name": "Amazon Stock (AMZN)",
+        "img": "/assets/amzn.jpg",
+        "price": 3155.69,
+        "count": null
+    },
+    {
+        "name": "Barrel of Oil",
+        "img": "/assets/barrels.jpg",
+        "price": 64,
+        "count": null
+    },
+    {
+        "name": "Tesla Model S",
+        "img": "/assets/tesla-model-s.jpg",
+        "price": 94490,
+        "count": null
+    },
+    {
+        "name": "Tesla Model 3",
+        "img": "/assets/tesla-model-3.jpg",
+        "price": 40190,
+        "count": null
+    }
+]

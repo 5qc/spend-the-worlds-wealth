@@ -1,0 +1,119 @@
+// Import
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap")
+
+// Variables
+mainFont = "Roboto Mono", monospace
+backgroundColor = #f8f8f8
+textColor = #000
+
+// Mixins
+no-select()
+    user-select none
+    -ms-user-select none
+    -moz-user-select none
+    -webkit-user-select none
+    -webkit-user-drag none
+
+// Styling
+body
+    margin 0
+    font-family mainFont
+    background backgroundColor
+    color textColor
+
+.header
+    .emoji
+        no-select()
+        font-size 10rem
+        text-align center
+    .content
+        width 50em
+        margin auto
+
+.bar
+    background darken(backgroundColor, 5%)
+    padding 10px
+    position sticky
+    top 0
+
+    .wealth
+        text-align center
+        font-size 150%
+
+.items
+    width 90%
+    margin auto
+    margin-top 1%
+    text-align center
+
+    .item
+        size = 300px
+
+        background darken(backgroundColor, 5%)
+        width size
+        text-align center
+        padding 0px 0px 10px 0px
+        border-radius 10px
+        font-size 20px
+        display inline-block
+        margin 0px 15px 10px 0px
+
+        .image
+            no-select()
+            width size
+            height size
+            border-radius 10px 10px 0px 0px
+            object-fit cover
+            background white
+        .count-container
+            padding-top 5px
+        .buy-button, .sell-button
+            font-family mainFont
+            border none
+            font-size 100%
+            cursor pointer
+            padding 3px
+            &:focus
+                outline none
+            &[disabled]
+                cursor default
+        .buy-button
+            background #9f9
+        .sell-button
+            background #f99
+        .item-count
+            display inline-block
+            width 50px
+            font-size 90%
+        .price
+            font-size 80%
+            width fit-content
+            margin auto
+
+.receipt
+    width 500px
+    margin auto
+    background white
+    font-family monospace
+    padding 10px
+    text-align center
+
+    .receipt-name
+        font-size 200%
+
+@media (max-width 750px)
+    .header
+        .emoji
+            font-size 7.5rem
+        .content
+            width 30em
+@media (max-width 500px)
+    .header
+        .emoji
+            font-size 7.5rem
+        .content
+            width 20em
+@media (max-width 400px)
+    .header
+        .content
+            width 95%
